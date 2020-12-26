@@ -13,7 +13,11 @@
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
-                    <img src="icons/logo.png" alt="logo">
+                    <picture>
+                        <source srcset="icons/logo-mobile2.png" type="image/png" media="(max-width: 575px)">
+                        <source srcset="icons/logo-mobile1.png" type="image/png" media="(max-width: 991px)">
+                        <img src="icons/logo.png" alt="logo">
+                    </picture>
                 </a>
                 <div class="header__official">
                     Официальный представитель
